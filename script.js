@@ -19,7 +19,7 @@ const gameBoard = (() => {
   return { getBoxes, addBox, reintialize };
 })();
 
-
+////////////////////////////////////////////////////////////////////////////////////////
 
 const player = () => {
   return {};
@@ -83,6 +83,9 @@ const gamePlay = (() => {
 
   return { listenClicks, restart };
 })();
+
+
+////////////////////////////////////////////////////////////////////////////////////////
 
 const displayController = (() => {
   const game = document.getElementById('game');
@@ -160,6 +163,8 @@ const displayController = (() => {
 
   return { render, highlight, congratulate, clearMessageBox };
 })();
+
+//////////////////////////////////////////////////////////////////////////////////////
 
 displayController.render();
 
