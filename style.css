@@ -1,0 +1,23 @@
+		#board {
+			width: 300px;
+			margin: 100px auto;
+		}
+
+		.box {
+			float: left;
+			width: 33.33%;
+			height: 100px;
+			line-height: 100px;
+			background-color: #d1d8e0;
+			border: 5px solid white;
+			box-sizing: border-box;
+			text-align: center;
+			font-size: 2em;
+			font-family: arial, sans-serif;
+		}
+
+		#restart {
+			margin: 10px;
+			padding: 5px;
+			font-size: 1.1em;
+		}
